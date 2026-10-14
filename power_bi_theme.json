@@ -1,0 +1,21 @@
+{
+  "name": "CareFlow Dark Theme",
+  "dataColors": ["#0078D4", "#00B7C3", "#90CAF9", "#40E0D0", "#5C6BC0", "#26C6DA"],
+  "background": "#121212",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#0078D4",
+  "visualStyles": {
+    "card": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#1E1E1E"}}}],
+        "label": [{"color": {"solid": {"color": "#FFFFFF"}}}],
+        "calloutValue": [{"color": {"solid": {"color": "#0078D4"}}}]
+      }
+    },
+    "sankeyChart": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#1A1A1A"}}}]
+      }
+    }
+  }
+}
